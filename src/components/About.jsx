@@ -14,19 +14,18 @@ export default function About() {
                         <div className="sm-title">
                             <h3>About Me</h3>
                         </div>
-                        <h6>Hello, my name is <span>Zemo</span> and i am <span>UX/UI designer</span> and <span>front-end developer</span></h6>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                        <h6>Hello, I am a <span>Data Science Student</span> and <span>Full-Stack Web developer</span></h6>
+                        <p>with a focus on machine learning, statistical modeling, and data-driven problem-solving. I enjoy turning complex data into meaningful insights and building smart solutions that make an impact.</p>
+                        <p>Alongside my academic journey, I'm a full-stack web developer with a strong backend focus. I work with Laravel, Node.js, MySQL, and MongoDB, and build responsive frontends using React and Tailwind CSS. I love crafting scalable, clean, and efficient web applications from end to end.</p>
                     </div>
                     <div className="about-row tag-text">
                         <div className="sm-title">
-                            <h3>Design Tools</h3>
+                            <h3>Tools</h3>
                         </div>
                         <div className="nav">
-                            <span>Adobe Xd</span>
-                            <span> Illustrator</span>
-                            <span>Photoshop </span>
-                            <span>Figma </span>
-                            <span>Sketch</span>
+                            <span>Power BI</span>
+                            <span>Tableau</span>
+                            <span>Postman</span>
                         </div>
                     </div>
                     <div className="about-row tag-text">
@@ -34,49 +33,29 @@ export default function About() {
                             <h3>Technologies and Skills</h3>
                         </div>
                         <div className="nav">
+                            <span>Python</span>
+                            <span>C</span>
+                            <span>Javascript</span>
                             <span>Html</span>
                             <span>Css</span>
-                            <span>Scss</span>
-                            <span>Less</span>
-                            <span>jQuery</span>
-                            <span>php</span>
                             <span>React</span>
-                            <span>Javascript</span>
-                            <span>Graphic Design</span>
-                            <span>Art Design</span>
-                            <span>Ui/Ux Design</span>
+                            <span>php</span>
+                            <span>Node JS</span>
                         </div>
                     </div>
-                    <div className="about-row progress-text">
+                    <div className="about-row tag-text">
                         <div className="sm-title">
-                            <h3>Work Process</h3>
+                            <h3>Frameworks</h3>
                         </div>
-                        <div className="row g-1">
-                            <div className="col-6 col-sm-3">
-                                <div className="d-flex align-items-center">
-                                    <span>#01</span>
-                                    <label className="col ps-2">Research</label>
-                                </div>
-                            </div>
-                            <div className="col-6 col-sm-3">
-                                <div className="d-flex align-items-center">
-                                    <span>#02</span>
-                                    <label className="col ps-2">Design</label>
-                                </div>
-                            </div>
-                            <div className="col-6 col-sm-3">
-                                <div className="d-flex align-items-center">
-                                    <span>#03</span>
-                                    <label className="col ps-2">Codeing</label>
-                                </div>
-                            </div>
-                            <div className="col-6 col-sm-3">
-                                <div className="d-flex align-items-center">
-                                    <span>#04</span>
-                                    <label className="col ps-2">Launch</label>
-                                </div>
-                            </div>
+                        <div className="nav">
+                            <span>Pytorch</span>
+                            <span>Tensorflow</span>
+                            <span>Express JS</span>
+                            <span>Laravel</span>
+                            <span>Django</span>
+                            <span>Flask</span>
                         </div>
+                        
                     </div>
                 </div>
                 <div className="col-lg-5">

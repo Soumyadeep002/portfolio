@@ -20,42 +20,35 @@ export default function Education() {
                         <ul>
                             <li className="row g-0">
                                 <div className="col-sm-4 col-xl-3">
-                                    <h6>Sep, 2016 – May, 2017</h6>
+                                    <h6>July, 2024 – Present</h6>
                                 </div>
                                 <div className="col-sm-8 col-xl-9 ps-xl-4">
-                                    <h5>Junior Designer</h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <span>- Las Vegas, USA</span>
+                                    <h5>M.Sc. in Data Science, VIT, Vellore </h5>
+                                    <p>Currently I'm pusuing my post-graduation in Data Science from <strong>Vellore Instisute of Technology, Vellore</strong>.</p>
+                                    <p>CGPA: 8.67/10 (1st Sem)</p>
+                                    <span>- Tamilnadu, India</span>
                                 </div>
                             </li>
                             <li className="row g-0">
                                 <div className="col-sm-4 col-xl-3">
-                                    <h6>Sep, 2016 – May, 2017</h6>
+                                    <h6>Oct, 2021 – July, 2024</h6>
                                 </div>
                                 <div className="col-sm-8 col-xl-9 ps-xl-4">
-                                    <h5>Systems Analyst / Web Developer</h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <span>- Las Vegas, USA</span>
+                                    <h5>B.Sc in IT (Data Science), MAKAUT, WB</h5>
+                                    <p>I have done my graduation in Information Technology specialized in Data Science from <strong>Maulana Abul Kalam Azad Unversity of Technology, West Bengal.</strong></p>
+                                    <p>CGPA: 9.19/10</p>
+                                    <span>- West Bengal, India</span>
                                 </div>
                             </li>
                             <li className="row g-0">
                                 <div className="col-sm-4 col-xl-3">
-                                    <h6>Sep, 2016 – May, 2017</h6>
+                                    <h6>June, 2019 – August, 2021</h6>
                                 </div>
                                 <div className="col-sm-8 col-xl-9 ps-xl-4">
-                                    <h5>Full Stack Developer</h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <span>- Las Vegas, USA</span>
-                                </div>
-                            </li>
-                            <li className="row g-0">
-                                <div className="col-sm-4 col-xl-3">
-                                    <h6>Sep, 2016 – May, 2017</h6>
-                                </div>
-                                <div className="col-sm-8 col-xl-9 ps-xl-4">
-                                    <h5>Full Stack Developer</h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <span>- Las Vegas, USA</span>
+                                    <h5>12th, (WBCHSE)</h5>
+                                    <p>I have done my 12th with Physics, Chemistry, Mathematics & Computer Science from <strong>West Bengal Higher Secondary Board</strong>.</p>
+                                    <p>CGPA: 8.9/10</p>
+                                    <span>- West Bengal, India</span>
                                 </div>
                             </li>
                         </ul>

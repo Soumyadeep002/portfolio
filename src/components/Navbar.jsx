@@ -22,8 +22,7 @@ export default function Navbar() {
                         <li><a className="nav-link" onClick={toggleNavbar} data-scroll-nav="0" href="#home"><span>Home</span></a></li>
                         <li><a className="nav-link" onClick={toggleNavbar} data-scroll-nav="1" href="#about"><span>About Us</span></a></li>
                         <li><a className="nav-link" onClick={toggleNavbar} data-scroll-nav="2" href="#services"><span>Services</span></a></li>
-                        <li><a className="nav-link" onClick={toggleNavbar} data-scroll-nav="3" href="#work"><span>Portfolio</span></a></li>
-                        <li><a className="nav-link" onClick={toggleNavbar} data-scroll-nav="4" href="#blog"><span>Blog</span></a></li>
+                        <li><a className="nav-link" onClick={toggleNavbar} data-scroll-nav="3" href="#work"><span>Projects</span></a></li>
                         <li><a className="nav-link" onClick={toggleNavbar} data-scroll-nav="5" href="#contactus"><span>Contact</span></a></li>
                     </ul>
                 </div>

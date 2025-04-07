@@ -9,16 +9,16 @@ export default function Footer() {
             <div className="row align-items-center">
                 <div className="col-md-6 my-2">
                     <div className="nav justify-content-center justify-content-md-start">
-                        <a href="#">
+                        <a target='_blank' href="https://www.facebook.com/soumyadeep.ganguly.758">
                             <i className="bi bi-facebook"></i>
                         </a>
                         <a target='_blank' href="https://github.com/Soumyadeep002">
                             <i className="bi bi-github"></i>
                         </a>
-                        <a href="#">
+                        <a target='_blank' href="https://www.instagram.com/soumyadeep.002/">
                             <i className="bi bi-instagram"></i>
                         </a>
-                        <a href="#">
+                        <a target='_blank' href="https://www.linkedin.com/in/soumyadeep-ganguly-76652822a/">
                             <i className="bi bi-linkedin"></i>
                         </a>
                     </div>

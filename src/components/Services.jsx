@@ -22,8 +22,8 @@ export default function Services() {
                             <i className="bi bi-laptop"></i>
                         </div>
                         <div className="feature-content">
-                            <h5>Unique design</h5>
-                            <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                            <h5>Build Website</h5>
+                            <p>Building fast, responsive, and scalable websites using modern full-stack technologies to deliver seamless user experiences across all devices.</p>
                         </div>
                     </div>
                 </div>
@@ -35,8 +35,8 @@ export default function Services() {
                             <i className="bi bi-layout-text-window"></i>
                         </div>
                         <div className="feature-content">
-                            <h5>Different Layout</h5>
-                            <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                            <h5>Manage Database</h5>
+                            <p>Designing, managing, and optimizing relational and non-relational databases to ensure secure, efficient, and high-performance data storage and retrieval.</p>
                         </div>
                     </div>
                 </div>
@@ -48,47 +48,8 @@ export default function Services() {
                             <i className="bi bi-layers"></i>
                         </div>
                         <div className="feature-content">
-                            <h5>Make it Simple</h5>
-                            <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
-                        </div>
-                    </div>
-                </div>
-                {/* <!-- / -->
-                <!-- feaure box --> */}
-                <div className="col-sm-6 col-lg-4 my-3">
-                    <div className="feature-box-1">
-                        <div className="icon hexagon">
-                            <i className="bi bi-phone"></i>
-                        </div>
-                        <div className="feature-content">
-                            <h5>Responsiveness</h5>
-                            <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
-                        </div>
-                    </div>
-                </div>
-                {/* <!-- / -->
-                <!-- feaure box --> */}
-                <div className="col-sm-6 col-lg-4 my-3">
-                    <div className="feature-box-1">
-                        <div className="icon hexagon">
-                            <i className="bi bi-bug"></i>
-                        </div>
-                        <div className="feature-content">
-                            <h5>Testing for Perfection</h5>
-                            <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
-                        </div>
-                    </div>
-                </div>
-                {/* <!-- / -->
-                <!-- feaure box --> */}
-                <div className="col-sm-6 col-lg-4 my-3">
-                    <div className="feature-box-1">
-                        <div className="icon hexagon">
-                            <i className="bi bi-command"></i>
-                        </div>
-                        <div className="feature-content">
-                            <h5>Advanced Options</h5>
-                            <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                            <h5>Manage Production</h5>
+                            <p>Coordinating development pipelines, automating deployments, and managing resources to ensure smooth, timely, and efficient product delivery from start to finish.</p>
                         </div>
                     </div>
                 </div>

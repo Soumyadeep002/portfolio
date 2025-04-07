@@ -1,21 +1,29 @@
 import React from 'react'
 import MyImage from '../assets/img/home-banner.jpg'
+import MyResume from '../assets/MyResume.pdf'
 
 export default function Banner() {
+
+    const handleDownload = () => {
+        const link = document.createElement("a");
+        link.href = MyResume;
+        link.download = "soumyadeep_ganguly_cv.pdf";
+        link.click();
+      };
   return (
       
       <section id="home" data-scroll-index="0" className="home-banner">
         <div className="social-share nav d-none d-lg-flex">
-            <a href="#">
+            <a target='_blank' href="https://www.facebook.com/soumyadeep.ganguly.758">
                 <i className="bi bi-facebook"></i>
             </a>
             <a target='_blank' href="https://github.com/Soumyadeep002">
                 <i className="bi bi-github"></i>
             </a>
-            <a href="#">
+            <a target='_blank' href="https://www.instagram.com/soumyadeep.002/">
                 <i className="bi bi-instagram"></i>
             </a>
-            <a href="#">
+            <a target='_blank' href="https://www.linkedin.com/in/soumyadeep-ganguly-76652822a/">
                 <i className="bi bi-linkedin"></i>
             </a>
         </div>
@@ -28,10 +36,10 @@ export default function Banner() {
                     <div className="typo-box">
                         <h6>Hi There, I'm</h6>
                         <h1 className="font-alt">Soumyadeep</h1>
-                        <h2>Freelance <span id="type-it"></span></h2>
-                        <p>The namics of how users interact with interactive elements within a user interface flow chart based on container proportion.</p>
+                        <h2>Full-Stack Developer<span id="type-it"></span></h2>
+                        <p>Full-stack developer with a backend edge and a Data Science grad student at VIT, Vellore. I build scalable web apps and craft intelligent data-driven solutions, blending code and analytics to solve real-world problems.</p>
                         <div className="btn-bar">
-                            <a className="px-btn px-btn-white" href="#">Download CV</a>
+                            <button className="px-btn px-btn-white" onClick={handleDownload}>Download CV</button>
                         </div>
                     </div>
                 </div>

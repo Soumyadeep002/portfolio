@@ -23,160 +23,9 @@ export default function HomePage() {
     <!-- Portfolio --> */}
         <Portfolio/>
     {/* <!-- End Portfolio -->
-    <!-- Testimonisla --> */}
-    <section className="section testimonials-section dark-bg-1">
-        <div className="placeholder">
-            <h5>testimonials</h5>
-        </div>
-        <div className="container">
-            <div className="row justify-content-center">
-                <div className="col-lg-6 text-center">
-                    <div className="section-title">
-                        <h2><span>Testimonials</span></h2>
-                    </div>
-                </div>
-            </div>
-            <div className="owl-carousel pt-3" data-items="2" data-nav-dots="true" data-md-items="2" data-sm-items="1" data-xs-items="1" data-xx-items="1" data-space="30">
-                {/* <!-- testimonials --> */}
-                <div className="testimonial-col">
-                    <div className="d-flex">
-                        <div className="img">
-                            <img src="static/img/team-1.jpg" title="" alt=""/>
-                        </div>
-                        <div className="col">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                            <div className="tc-info">
-                                <h6>Nancy Bayers</h6>
-                                <span>Founder & CEO at Pxdraft</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* <!-- / -->
-                <!-- testimonials --> */}
-                <div className="testimonial-col">
-                    <div className="d-flex">
-                        <div className="img">
-                            <img src="static/img/team-1.jpg" title="" alt=""/>
-                        </div>
-                        <div className="col">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                            <div className="tc-info">
-                                <h6>Nancy Bayers</h6>
-                                <span>Founder & CEO at Pxdraft</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* <!-- / -->
-                <!-- testimonials --> */}
-                <div className="testimonial-col">
-                    <div className="d-flex">
-                        <div className="img">
-                            <img src="static/img/team-1.jpg" title="" alt=""/>
-                        </div>
-                        <div className="col">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                            <div className="tc-info">
-                                <h6>Nancy Bayers</h6>
-                                <span>Founder & CEO at Pxdraft</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    {/* <!-- End Testimonisla -->
-    <!-- Blog --> */}
-    <section id="blog" data-scroll-index="4" className="section">
-        <div className="placeholder">
-            <h5>Blog</h5>
-        </div>
-        <div className="container">
-            <div className="row justify-content-center">
-                <div className="col-lg-6 text-center">
-                    <div className="section-title">
-                        <h2><span>Latest Blog</span></h2>
-                    </div>
-                </div>
-            </div>
-            <div className="row">
-                <div className="col-lg-4 my-3">
-                    <div className="blog-post">
-                        <div className="blog-img">
-                            <div className="data">
-                                <span>14</span>
-                                <small>JAN</small>
-                            </div>
-                            <a href="blog.html">
-                                <img src="static/img/blog-1.jpg" title="" alt=""/>
-                            </a>
-                        </div>
-                        <div className="blog-info">
-                            <h6><a href="blog.html">Prevent 75% of visitors from google analytics</a></h6>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <div className="btn-bar">
-                                <a href="blog.html" className="px-btn-arrow">
-                                    <span>Read More</span>
-                                    <i className="arrow"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-4 my-3">
-                    <div className="blog-post">
-                        <div className="blog-img">
-                            <div className="data">
-                                <span>14</span>
-                                <small>JAN</small>
-                            </div>
-                            <a href="blog.html">
-                                <img src="static/img/blog-2.jpg" title="" alt=""/>
-                            </a>
-                        </div>
-                        <div className="blog-info">
-                            <h6><a href="blog.html">Prevent 75% of visitors from google analytics</a></h6>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <div className="btn-bar">
-                                <a href="blog.html" className="px-btn-arrow">
-                                    <span>Read More</span>
-                                    <i className="arrow"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-4 my-3">
-                    <div className="blog-post">
-                        <div className="blog-img">
-                            <div className="data">
-                                <span>14</span>
-                                <small>JAN</small>
-                            </div>
-                            <a href="blog.html">
-                                <img src="static/img/blog-3.jpg" title="" alt=""/>
-                            </a>
-                        </div>
-                        <div className="blog-info">
-                            <h6><a href="blog.html">Prevent 75% of visitors from google analytics</a></h6>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <div className="btn-bar">
-                                <a href="blog.html" className="px-btn-arrow">
-                                    <span>Read More</span>
-                                    <i className="arrow"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    {/* <!-- End Blog -->
+
     <!-- Contact --> */}
-    <section id="contactus" data-scroll-index="5" className="section dark-bg-1 contactus-section">
+    <section id="contactus" data-scroll-index="4" className="section dark-bg-1 contactus-section">
         <div className="placeholder">
             <h5>Contact</h5>
         </div>
@@ -195,31 +44,32 @@ export default function HomePage() {
                             <div className="sm-title">
                                 <h3>Email</h3>
                             </div>
-                            <p>info@domainname.com<br />support@domain.com</p>
+                            <p>soumyadeep,ganguly2024@vitstudent.com<br/>
+                            soumyadeepganguly1922@gmail.com</p>
                         </div>
                         <div className="contact-name">
                             <div className="sm-title">
-                                <h3>Visit My Studio</h3>
+                                <h3>My Location</h3>
                             </div>
-                            <p>Warnwe Park Streetperrine, <br/>FL 33157 New York City</p>
+                            <p>Kolkata, <br/>West Bengal, India</p>
                         </div>
                         <div className="contact-name">
                             <div className="sm-title">
                                 <h3>Phone</h3>
                             </div>
-                            <p>+01 123 654 8096</p>
+                            <p>+91 6290785895</p>
                         </div>
                         <div className="social-share nav">
-                            <a href="#">
+                            <a target='_blank' href="https://www.facebook.com/soumyadeep.ganguly.758">
                                 <i className="bi bi-facebook"></i>
                             </a>
                             <a target='_blank' href="https://github.com/Soumyadeep002">
                                 <i className="bi bi-github"></i>
                             </a>
-                            <a href="#">
+                            <a target='_blank' href="https://www.instagram.com/soumyadeep.002/">
                                 <i className="bi bi-instagram"></i>
                             </a>
-                            <a href="#">
+                            <a target='_blank' href="https://www.linkedin.com/in/soumyadeep-ganguly-76652822a/">
                                 <i className="bi bi-linkedin"></i>
                             </a>
                         </div>
