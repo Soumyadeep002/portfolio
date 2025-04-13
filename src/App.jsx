@@ -12,12 +12,12 @@ function App() {
       element: (
         <>
           <Navbar/>
-          <HomePage/>
+            <HomePage/>
           <Footer/>
         </>
       ),
     },
-    // student dashboard routes 
+    
   ],
 
     {

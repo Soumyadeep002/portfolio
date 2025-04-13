@@ -37,7 +37,7 @@ export default function Banner() {
                         <h6>Hi There, I'm</h6>
                         <h1 className="font-alt">Soumyadeep</h1>
                         <h2>Full-Stack Developer<span id="type-it"></span></h2>
-                        <p>Full-stack developer with a backend edge and a Data Science grad student at VIT, Vellore. I build scalable web apps and craft intelligent data-driven solutions, blending code and analytics to solve real-world problems.</p>
+                        <p>Full-stack developer with a backend edge and a Data Science grad student. I build scalable web apps and craft intelligent data-driven solutions, blending code and analytics to solve real-world problems.</p>
                         <div className="btn-bar">
                             <button className="px-btn px-btn-white" onClick={handleDownload}>Download CV</button>
                         </div>

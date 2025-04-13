@@ -1,6 +1,32 @@
 import React from 'react'
+import EducationCard from './EducationCard'
 
 export default function Education() {
+
+    const educationData = [
+        {
+          duration: "July, 2024 – Present",
+          title: "M.Sc. in Data Science, VIT, Vellore",
+          description: "Currently I'm pursuing my post-graduation in Data Science from Vellore Institute of Technology, Vellore.",
+          grade: "8.67/10 (1st Sem)",
+          location: "Tamilnadu, India"
+        },
+        {
+          duration: "Oct, 2021 – July, 2024",
+          title: "B.Sc in IT (Data Science), MAKAUT, WB",
+          description: "I have done my graduation in Information Technology specialized in Data Science from Maulana Abul Kalam Azad University of Technology, West Bengal.",
+          grade: "9.19/10",
+          location: "West Bengal, India"
+        },
+        {
+          duration: "June, 2019 – August, 2021",
+          title: "12th, (WBCHSE)",
+          description: "I have done my 12th with Physics, Chemistry, Mathematics & Computer Science from West Bengal Higher Secondary Board.",
+          grade: "8.9/10",
+          location: "West Bengal, India"
+        }
+      ];
+
   return (
     <section className="section section-resume dark-bg-1">
         <div className="placeholder">
@@ -18,39 +44,16 @@ export default function Education() {
                 <div className="col-lg-10">
                     <div className="resume-box">
                         <ul>
-                            <li className="row g-0">
-                                <div className="col-sm-4 col-xl-3">
-                                    <h6>July, 2024 – Present</h6>
-                                </div>
-                                <div className="col-sm-8 col-xl-9 ps-xl-4">
-                                    <h5>M.Sc. in Data Science, VIT, Vellore </h5>
-                                    <p>Currently I'm pusuing my post-graduation in Data Science from <strong>Vellore Instisute of Technology, Vellore</strong>.</p>
-                                    <p>CGPA: 8.67/10 (1st Sem)</p>
-                                    <span>- Tamilnadu, India</span>
-                                </div>
-                            </li>
-                            <li className="row g-0">
-                                <div className="col-sm-4 col-xl-3">
-                                    <h6>Oct, 2021 – July, 2024</h6>
-                                </div>
-                                <div className="col-sm-8 col-xl-9 ps-xl-4">
-                                    <h5>B.Sc in IT (Data Science), MAKAUT, WB</h5>
-                                    <p>I have done my graduation in Information Technology specialized in Data Science from <strong>Maulana Abul Kalam Azad Unversity of Technology, West Bengal.</strong></p>
-                                    <p>CGPA: 9.19/10</p>
-                                    <span>- West Bengal, India</span>
-                                </div>
-                            </li>
-                            <li className="row g-0">
-                                <div className="col-sm-4 col-xl-3">
-                                    <h6>June, 2019 – August, 2021</h6>
-                                </div>
-                                <div className="col-sm-8 col-xl-9 ps-xl-4">
-                                    <h5>12th, (WBCHSE)</h5>
-                                    <p>I have done my 12th with Physics, Chemistry, Mathematics & Computer Science from <strong>West Bengal Higher Secondary Board</strong>.</p>
-                                    <p>CGPA: 8.9/10</p>
-                                    <span>- West Bengal, India</span>
-                                </div>
-                            </li>
+                            {educationData.map((edu, index) => (
+                                <EducationCard 
+                                    key={index}
+                                    duration={edu.duration}
+                                    title={edu.title} 
+                                    desc={edu.description}
+                                    grade={edu.grade}   
+                                    location={edu.location}
+                                />
+                            ))}
                         </ul>
                     </div>
                 </div>
