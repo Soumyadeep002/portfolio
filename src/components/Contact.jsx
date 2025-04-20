@@ -50,7 +50,7 @@ export default function Contact() {
                         <div className="contact-info">
                             <div className="contact-name">
                                 <div className="sm-title"><h3>Email</h3></div>
-                                <p>soumyadeep.ganguly2024@vitstudent.com<br/>soumyadeepganguly1922@gmail.com</p>
+                                <p>soumyadeep.ganguly2024@vitstudent.ac.in<br/>soumyadeepganguly1922@gmail.com</p>
                             </div>
                             <div className="contact-name">
                                 <div className="sm-title"><h3>My Location</h3></div>
