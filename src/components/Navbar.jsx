@@ -20,7 +20,7 @@ export default function Navbar() {
                 <div className={`collapse navbar-collapse justify-content-end ${showNavbar ? 'show' : ''}`} id="navbar-collapse-toggle">
                     <ul className="navbar-nav ml-auto">
                         <li><a className="nav-link" onClick={toggleNavbar} data-scroll-nav="0" href="#home"><span>Home</span></a></li>
-                        <li><a className="nav-link" onClick={toggleNavbar} data-scroll-nav="1" href="#about"><span>About Us</span></a></li>
+                        <li><a className="nav-link" onClick={toggleNavbar} data-scroll-nav="1" href="#about"><span>About Me</span></a></li>
                         <li><a className="nav-link" onClick={toggleNavbar} data-scroll-nav="2" href="#services"><span>Services</span></a></li>
                         <li><a className="nav-link" onClick={toggleNavbar} data-scroll-nav="3" href="#work"><span>Projects</span></a></li>
                         <li><a className="nav-link" onClick={toggleNavbar} data-scroll-nav="5" href="#contactus"><span>Contact</span></a></li>
